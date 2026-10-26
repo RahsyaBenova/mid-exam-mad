@@ -26,25 +26,6 @@ The project consists of the following core components:
 
 ---
 
-## Getting Started & Installation
-
-### Prerequisites
-- **Android Studio** installed on your machine.
-- An Emulator or a physical Android device configured for debugging.
-
-### Setup Instructions
-1. Open **Android Studio** and create a new project with an **Empty Activity** (Java language).
-2. Create the packages and classes as provided in the implementation:
-   - Create `DatabaseHelper.java`
-   - Create `ViewStudentActivity.java`
-3. Update your layout XML files (`activity_main.xml` and `activity_view_student.xml`).
-4. Ensure your `AndroidManifest.xml` includes the declaration for the secondary activity:
-   ```xml
-   <activity android:name=".ViewStudentActivity" />
-   ```
-5. Build and run the project on your emulator or physical device.
-
----
 
 ## Usage Guide
 
